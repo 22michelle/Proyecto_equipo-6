@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- estilos locales -->
+    <link href="../Pagina_Pagos/styles/styles.css" rel="stylesheet" type="text/css" />
+
+    <title>Pagos</title>
+  </head>
+
+  <!-- Barra navegación -->
+  <header class="header">
+    <img class="icon" src="./images/LogoMs.png" alt="logo" />
+    <div>
+      <a class="links" href=""> </a>
+
+      <a class="links" href="../home/index.html">Inicio</a>
+    </div>
+    <div></div>
+  </header>
+
+  <body>
+    <!-- tarjetas -->
+
+    <div class="titulo">Pago de productos</div>
+    <div class="container-productos">
+      <div class="tarjeta-producto">
+        <img class="item" src="./images/anillos.jpg" />
+        <div class="info-producto">
+          <div>Argolla exótica</div>
+          <br />
+          <div>$150.000</div>
+          <br />
+          <div class="contador">
+            <div>+</div>
+            <div class="numero">1</div>
+            <div>-</div>
+          </div>
+          <br />
+        </div>
+      </div>
+
+      <div class="tarjeta-producto">
+        <img class="item" src="./images/collar.jpg" />
+        <div class="info-producto">
+          <div>Collar brillante</div>
+          <br />
+          <div>$250.000</div>
+          <br />
+          <div class="contador">
+            <div>+</div>
+            <div class="numero">1</div>
+            <div>-</div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-pagos">
+      <form class="formulario">
+        <div class="box">
+          <label>Correo electrónico del comprador</label>
+          <input placeholder="Correo electrónico" />
+        </div>
+
+        <div class="box">
+          <label>Nombre titular tarjeta</label>
+          <input placeholder="Nombre titular" />
+        </div>
+
+        <div class="box">
+          <label> Número de la tarjeta</label>
+          <input placeholder="Número tarjeta" />
+        </div>
+
+        <div class="box">
+          <label> Código CVV de la tarjeta</label>
+          <input placeholder="Número tarjeta" />
+        </div>
+      </form>
+      <button>Pagar</button>
+    </div>
+    <footer>Derechos reservados 2022 @</footer>
+  </body>
+</html>
