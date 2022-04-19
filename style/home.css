@@ -9,14 +9,47 @@
 
 body {
     background: #dadada;
+  
+   
 }
    
-nav {
+/* nav {
     width: 100%;
     background-color: #000;
     height: 130px;
     border-radius: 4px;
+} */
+
+.header {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  height: 100px;
+  position:fixed;
+  top:0px;
+  z-index:5;
 }
+
+.icon {
+  margin-left: 50px;
+  width: 8%;
+  margin:2px;
+  border-radius: 5px;
+}
+
+.links {
+  color: white;
+  position:relative;
+  left:500px;
+  margin-left:50px;
+  text-decoration: none;
+}
+
 
 .brand {
     margin-left: 5%;
@@ -45,11 +78,11 @@ nav ul li a {
     font-size: 25px;
 }
 
-.brand img {
+/* .brand img {
     width: 160px;
-    height: 80;
+    height: 80px;
 
-}
+} */
 
 * {box-sizing:border-box}
 
@@ -58,6 +91,10 @@ nav ul li a {
   max-width: 1000px;
   position: relative;
   margin: auto;
+ 
+
+ 
+ 
 }
 
 /* Hide the images by default */
@@ -75,7 +112,7 @@ nav ul li a {
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -102,6 +139,7 @@ nav ul li a {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+ 
 }
 
 .active, .dot:hover {
@@ -124,22 +162,29 @@ nav ul li a {
     background-color: #000;
     color: white;
     width: 100%;
-    height: 200px;
-    border-radius: 6px;
-}
-
-.info {
-    text-align: center;
+    height: 220px;
 }
 
 .container1 {
-    text-align: right;
+  margin-left: 60px;
+  float: left;
+  color: white;
 }
 
 .container2 {
-    background-color: #000;
-    width: 100%;
-    height: 430px;
+
+  background-color: #000;
+  color: white;
+  
+}
+.container3 {
+margin-right: 60px;
+float: right;
+color: white;
+}
+
+.container4 {
+  text-align: center;
 }
 
 .img-producto {
@@ -167,6 +212,8 @@ nav ul li a {
     width: 100px;
     background: #000000;
     border: none;
+    font-size: 14px;
+    font-weight:bold;
     padding: 12px;
     color: white;
     margin: 16px 0;
