@@ -37,7 +37,7 @@
 .links {
   color: white;
   position:relative;
-  left:500px;
+  left:460px;
   margin-left:50px;
 }
 
@@ -138,6 +138,7 @@
     text-align: center;
     color:white;
   }
+
   img{
     width:100%;
     border-radius:5px;
