@@ -202,5 +202,8 @@
   color: white;
   }
 
-
-/* Redes sociales */
+  a:visited  {
+    color: white;
+    font-weight: bold;
+    
+  }

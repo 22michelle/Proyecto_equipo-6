@@ -144,3 +144,14 @@ text-align: center;
   color:white;
 }
 
+.item{
+  width:33%;
+  position:relative;
+  top:-10px;
+}
+
+a:visited  {
+  color: white;
+  font-weight: bold;
+  
+}
