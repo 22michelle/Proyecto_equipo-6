@@ -31,12 +31,10 @@
  
 }
 
-
-
 .links {
   color: white;
   position:relative;
-  left:500px;
+  left:400px;
   margin-left:50px;
   text-decoration: none;
 }
@@ -99,9 +97,9 @@
   img{
     width:100%;
     border-radius:5px;
-    
     }
-  
+    
+     
   button{
     background:black;
     color:white; 
@@ -173,7 +171,7 @@
 .contacto{
   position:relative;
   top:0px;
-  left:700px;
+  left:400px;
  
  
 }
