@@ -38,6 +38,7 @@ color: white;
 text-decoration: none;
 margin-left:150px;
 top:5px;
+
 }
 
 .inicio{
@@ -181,10 +182,11 @@ img {
   flex-direction: row;
 }
 
-a:hover{
-  background-color: khaki;
-  border-radius: 5px;
+.links:hover{
   
+  background-color: rgb(222, 211, 237);
+  border-radius: 5px;
+
 }
 
 .Novedades {

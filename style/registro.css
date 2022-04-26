@@ -73,11 +73,18 @@ nav ul li a {
 
 
 .form-register {
-    width: 750px;
+    width: 450px;
     margin: center;
     color: rgb(0, 0, 0);
     box-shadow: #000;
     text-align: center;
+    background-color: rgb(222, 211, 237);
+    position:relative;
+    left:150px;
+    top:-45px;
+    border-radius:10px;
+    padding:25px;
+
     
 }
 
@@ -157,3 +164,11 @@ nav ul li a {
     top:80px;
     left:100px;
 }
+
+.links:hover{
+  
+    background-color: rgb(222, 211, 237);
+    border-radius: 5px;
+  
+  }
+  

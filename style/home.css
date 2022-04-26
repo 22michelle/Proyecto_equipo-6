@@ -250,20 +250,47 @@ background-color:rgb(222, 211, 237);
 img.img\.cliente {
 left: 20px;
 position: absolute;
+border-radius: 5px;
 }
 
 #nombre-cliente {
 padding: 25px;
 }
 
-.button.botón-cliente {
+/* .button.botón-cliente {
   color: white;
   width: 180px;
-  background-color: #000;
+  background-color: green;
   border-radius: 6px;
   height: 40px;
   text-decoration: none;
   border: none;
   font-size: 14px;
   font-weight: bold;
+} */
+
+/* BOTON NUEVO CLIENTE */
+.botón-cliente {
+  width: 100px;
+  background: #000000;
+  border: none;
+  font-size: 14px;
+  font-weight:bold;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16x;
+  border-radius: 6px;
+  width: 190px;
+  height: 40px;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+.links:hover{
+  
+  background-color: rgb(222, 211, 237);
+  border-radius: 5px;
+
+}
+
